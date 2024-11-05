@@ -1,0 +1,14 @@
+version: 4.0.80
+steps:
+  - prompt: Look for a language selection option.
+    commands:
+      - command: hover-text
+        text: Login/Signup
+        description: button in the header
+        action: hover
+  - prompt: Look for a language selection option.
+    commands:
+      - command: hover-text
+        text: Lucky Box
+        description: logo in the header
+        action: hover
