@@ -1,0 +1,22 @@
+version: 4.0.80
+steps:
+  - prompt: Click on "Try Random Box".
+    commands:
+      - command: hover-text
+        text: Try Random Box
+        description: button to try a random box
+        action: click
+  - prompt: Assert that the action related to the random box is initiated.
+    commands:
+      - command: assert
+        expect: the random box page is displayed
+  - prompt: Assert that the action related to the random box is initiated.
+    commands:
+      - command: scroll-until-text
+        text: Congratulations
+        direction: down
+  - prompt: Assert that the action related to the random box is initiated.
+    commands:
+      - command: scroll-until-text
+        text: Congratulations
+        direction: down
