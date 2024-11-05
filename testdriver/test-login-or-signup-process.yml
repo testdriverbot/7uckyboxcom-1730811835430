@@ -1,0 +1,96 @@
+version: 4.0.80
+steps:
+  - prompt: Click on "Login/Signup".
+    commands:
+      - command: hover-text
+        text: Login/Signup
+        description: button in the header
+        action: click
+  - prompt: Assert that a login/signup form appears.
+    commands:
+      - command: assert
+        expect: the login/signup form is visible
+  - prompt: Try to sign up with test data.
+    commands:
+      - command: hover-text
+        text: Full name
+        description: full name field
+        action: click
+      - command: type
+        text: Test User
+      - command: hover-text
+        text: E-mail
+        description: email field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Phone number
+        description: phone number field
+        action: click
+      - command: type
+        text: 1234567890
+      - command: hover-text
+        text: I agree Terms & Conditions
+        description: terms and conditions checkbox
+        action: click
+      - command: hover-text
+        text: REGISTER
+        description: register button
+        action: click
+  - prompt: Try to sign up with test data.
+    commands:
+      - command: hover-text
+        text: Full name
+        description: full name field
+        action: click
+      - command: type
+        text: Test User
+      - command: hover-text
+        text: E-mail
+        description: email field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Phone number
+        description: phone number field
+        action: click
+      - command: type
+        text: 1234567890
+      - command: hover-text
+        text: I agree Terms & Conditions
+        description: terms and conditions checkbox
+        action: click
+      - command: hover-text
+        text: REGISTER
+        description: register button
+        action: click
+  - prompt: Try to sign up with test data.
+    commands:
+      - command: hover-text
+        text: Full name
+        description: full name field
+        action: click
+      - command: type
+        text: Test User
+      - command: hover-text
+        text: E-mail
+        description: email field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Phone number
+        description: phone number field
+        action: click
+      - command: type
+        text: 1234567890
+      - command: hover-text
+        text: I agree Terms & Conditions
+        description: terms and conditions checkbox
+        action: click
+      - command: hover-text
+        text: REGISTER
+        description: register button
+        action: click
