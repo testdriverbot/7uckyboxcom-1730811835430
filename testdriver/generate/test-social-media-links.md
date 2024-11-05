@@ -1,0 +1,1 @@
+1. Click on any visible social media icon/link
