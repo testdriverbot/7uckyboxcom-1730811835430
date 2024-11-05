@@ -1,0 +1,10 @@
+version: 4.0.80
+steps:
+  - prompt: >-
+      Click on any prominent pricing or price detail  # Use the content of the
+      file from the environment
+    commands:
+      - command: hover-text
+        text: ₦1650000
+        description: price detail for the iPhone
+        action: click
