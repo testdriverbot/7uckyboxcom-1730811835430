@@ -1,0 +1,1 @@
+1. Click on any prominent pricing or price detail

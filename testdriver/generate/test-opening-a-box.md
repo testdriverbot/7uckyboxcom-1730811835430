@@ -1,0 +1,1 @@
+1. Click on "Open Box" for any category
