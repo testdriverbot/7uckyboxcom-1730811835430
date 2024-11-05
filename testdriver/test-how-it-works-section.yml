@@ -1,0 +1,26 @@
+version: 4.0.80
+steps:
+  - prompt: Click on "How It Works?".
+    commands:
+      - command: hover-text
+        text: How It Works?
+        description: button in the webpage header
+        action: click
+  - prompt: Assert that detailed information or an explainer is displayed.
+    commands:
+      - command: assert
+        expect: detailed information or an explainer is displayed
+  - prompt: >-
+      Validate that the information is understandable or complete an interactive
+      tutorial.  # Use the content of the file from the environment
+    commands:
+      - command: assert
+        expect: the information is understandable
+  - prompt: >-
+      Validate that the information is understandable or complete an interactive
+      tutorial.  # Use the content of the file from the environment
+    commands:
+      - command: hover-text
+        text: GET STARTED
+        description: button to begin the interactive tutorial
+        action: click
